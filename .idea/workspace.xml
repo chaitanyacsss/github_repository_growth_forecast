@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02759428-b72b-4a53-bc7d-3ad4e6a38476" name="Default" comment="" />
+    <list default="true" id="02759428-b72b-4a53-bc7d-3ad4e6a38476" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/R_arima_predictions.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/R_arimax_predictions.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/R_predictions_SARIMAX.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/R_predictions_arima.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/python_arima_predictions.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/python_arimax_predictions.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/python_predictions_SARIMAX.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/python_predictions_arima.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arima_predictions.py" afterPath="$PROJECT_DIR$/arima_predictions.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +25,8 @@
       <file leaf-file-name="prepare_historical_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prepare_historical_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="22" />
+            <state relative-caret-position="398">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -26,8 +37,8 @@
       <file leaf-file-name="arima_predictions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arima_predictions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="141">
+              <caret line="83" column="26" lean-forward="false" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -38,8 +49,8 @@
       <file leaf-file-name="services.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="100" />
+            <state relative-caret-position="391">
+              <caret line="23" column="82" lean-forward="false" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -82,7 +93,6 @@
       <find>pred</find>
       <find>series</find>
       <find>arima</find>
-      <find>RMSE</find>
       <find>future_predfuture_pred</find>
       <find>language</find>
       <find>get_future_date_list</find>
@@ -94,7 +104,12 @@
       <find>arimax</find>
       <find>ARIMA</find>
       <find>PREDICTION_END_YEAR</find>
+      <find>RMSE</find>
+      <find>os</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,6 +138,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -144,6 +160,11 @@
             <path>
               <item name="github_repository_projection" type="b2602c69:ProjectViewProjectNode" />
               <item name="github_repository_projection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github_repository_projection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github_repository_projection" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="github_repository_projection" type="b2602c69:ProjectViewProjectNode" />
@@ -275,8 +296,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.arima_predictions" />
-        <item index="1" class="java.lang.String" itemvalue="Python.services" />
+        <item index="0" class="java.lang.String" itemvalue="Python.services" />
+        <item index="1" class="java.lang.String" itemvalue="Python.arima_predictions" />
         <item index="2" class="java.lang.String" itemvalue="Python.prepare_historical_data" />
         <item index="3" class="java.lang.String" itemvalue="Python.train_model" />
         <item index="4" class="java.lang.String" itemvalue="Python.prediction_model" />
@@ -292,7 +313,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2692703" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -440,16 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prepare_historical_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/flask/templating.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -458,10 +469,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/prepare_historical_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/arima_predictions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="141">
+          <caret line="83" column="26" lean-forward="false" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -470,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="100" />
+        <state relative-caret-position="391">
+          <caret line="23" column="82" lean-forward="false" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

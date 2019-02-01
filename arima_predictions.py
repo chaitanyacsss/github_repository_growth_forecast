@@ -13,7 +13,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 from prepare_historical_data import PREDICTION_END_YEAR, months, DATA_FOLDER, PYTHON_LANGUAGE, R_LANGUAGE, \
     CSV_FILE_SUFFIX
 
-SARIMAX_ = "arimax"
+SARIMAX_ = "sarimax"
 
 PREDICTIONS_FOLDER = "results"
 
@@ -52,6 +52,7 @@ def get_future_date_list():
 
 
 def run_arima(language):
+    create_predictions_folder()
     series = read_csv(os.path.join(DATA_FOLDER, language + CSV_FILE_SUFFIX), header=0, parse_dates=[0], index_col=0,
                       squeeze=True,
                       date_parser=parser)
@@ -81,6 +82,7 @@ def run_arima(language):
 
 
 def run_sarimax(language):
+    create_predictions_folder()
     series = read_csv(os.path.join(DATA_FOLDER, language + CSV_FILE_SUFFIX), header=0, parse_dates=[0], index_col=0,
                       squeeze=True,
                       date_parser=parser)
