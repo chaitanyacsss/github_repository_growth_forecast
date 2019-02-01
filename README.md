@@ -35,21 +35,21 @@ where language is Python or R and dates refers to monthly ranges; ex. dates = 20
 [prepare_historical_data.py](prepare_historical_data.py). We can visualize the trends to get a basic intuition.
 ![PYTHON - HISTORICAL DATA](data/python_data.png)
 
-![R - ARIMA PREDICTIONS](data/r_data.png)
+![R - HISTORICAL DATA](data/R_data.png)
 
 
 3) We now use [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average), a simple yet powerful time series forcast model to predict future trends.
 We take the latest 12 months as test data an observe the plots:
 ![PYTHON - ARIMA PREDICTIONS](results/python_predictions_arima.png)
 
-![R - ARIMA PREDICTIONS](results/r_predictions_arima.png)
+![R - ARIMA PREDICTIONS](results/R_predictions_arima.png)
 
 
 4) There is clear room for improvement, we now try a more complex model, SARIMAX which brings in seasonality and plot the results.
 
-![PYTHON - SARIMAX PREDICTIONS](results/python_predictions_sarimax.png)
+![PYTHON - SARIMAX PREDICTIONS](results/python_predictions_SARIMAX.png)
 
-![R - SARIMAX PREDICTIONS](results/r_predictions_sarimax.png)
+![R - SARIMAX PREDICTIONS](results/R_predictions_SARIMAX.png)
 
 
 To quantisize and compare the qualities of ARIMA and SARIMAX, we calculate the RMS Error on the test set,
