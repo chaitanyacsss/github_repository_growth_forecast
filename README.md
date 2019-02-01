@@ -64,10 +64,10 @@ To quantisize and compare the qualities of ARIMA and SARIMAX, we calculate the R
 The above table clearly illustrate how the later model predicts much better compared to the earlier, which was also seen in the plots.
 
 5) We now create Flask APIs with /python and /r endpoints to show the best model predictions using Chart.js. Once hosted the charts can be visualized on
-'''
+```
 http://127.0.0.1:5001/python
 http://127.0.0.1:5001/r
-'''
+```
 6) A Docker file is also added to simplify running the project on a docker image.
 
 7) All the dependencies and corresponding versions are added to [requirements.txt](requirements.txt)
