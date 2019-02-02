@@ -85,4 +85,4 @@ http://127.0.0.1:5001/r
 1) Besides the general trend, there is a clear seasonal component in both python and r repository-counts, 
 where there are **peaks** every **March** and **troughs** every **December**, shown below
 
-[Python Predictions](results/python_predictions_chartjs.PNG)
+![Python Predictions](results/python_predictions_chartjs.PNG)
