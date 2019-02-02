@@ -78,3 +78,11 @@ http://127.0.0.1:5001/r
 7) All the dependencies and corresponding versions are added to [requirements.txt](requirements.txt)
 
 8) All the [results](results) are recorded for observation.
+
+
+### Observations ###
+1) There is a general growth in the number of repositories over time, which is the expected trend.
+1) Besides the general trend, there is a clear seasonal component in both python and r repository-counts, 
+where there are **peaks** every **March** and **troughs** every **December**, shown below
+
+[Python Predictions](results/python_predictions_chartjs.PNG)
