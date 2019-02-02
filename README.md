@@ -83,6 +83,6 @@ http://127.0.0.1:5001/r
 ### Observations ###
 1) There is a general growth in the number of repositories over time, which is the expected trend.
 1) Besides the general trend, there is a clear seasonal component in both python and r repository-counts, 
-where there are **peaks** every **March** and **troughs** every **December**, shown below
+where there is a **peak** every **March** and a **trough** every **December**, and our algorithm carried this into predictions well as shown below
 
 ![Python Predictions](results/python_predictions_chartjs.PNG)
