@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask
+from flask import Flask, redirect
 from flask import render_template
 from pandas import Series
 
@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 @app.route("/<language>")
-def python_prediction(language):
+def prediction(language):
     language = language.lower()
     if language == "r":
         language = "R"
@@ -22,7 +22,13 @@ def python_prediction(language):
                            hist_values=historical_data_series.values.tolist(),
                            pred_values=[None for i in range(
                                len(historical_data_series.values.tolist()))] + future_prediction_series.values.tolist(),
-                           labels=combined_labels, title=language + " repository counts: prediction for the next 5 years")
+                           labels=combined_labels,
+                           title=language + " repository counts: prediction for the next 5 years")
+
+
+@app.route("/code")
+def code_repo():
+    return redirect("https://github.com/chaitanyacsss/github_repository_growth_forecast")
 
 
 if __name__ == "__main__":
